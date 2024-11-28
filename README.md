@@ -1,16 +1,16 @@
-## Hi there 👋
+```js
+import Desenvolvedor from "edszon";
 
-<!--
-**edszon/edszon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class SobreMim extends Desenvolvedor {
+  nome = "Edson Cavalcanti";
+  area = ["front-end","ux","ui","graphics"];
+  local = "Natal, Rio Grande do Norte";
+}
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends Desenvolvedor {
+  linguagens = ["c++","python","java"];
+  bibliotecas = ["shadcn","radixui"];
+  frameworks = ["astro.js","react.js"];
+  tools = ["figma","adobe xd", "sketch"];
+}
+```
