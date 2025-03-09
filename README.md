@@ -1,16 +1,16 @@
 ```js
-import Desenvolvedor from "edszon";
+import Developer from "edszon";
 
-class SobreMim extends Desenvolvedor {
-  nome = "Edson Cavalcanti";
-  area = ["front-end","ux","ui","graphics"];
-  local = "Natal, Rio Grande do Norte";
+class AboutMe extends Developer {
+  name = "Edson Cavalcanti";
+  areas = ["front-end", "back-end", "UX", "UI", "graphics"];
+  location = "Natal, Rio Grande do Norte";
 }
 
-class Skills extends Desenvolvedor {
-  linguagens = ["c++","python","java"];
-  bibliotecas = ["shadcn","radixui"];
-  frameworks = ["astro.js","react.js"];
-  tools = ["figma","adobe xd", "sketch"];
+class Skills extends Developer {
+  languages = ["TypeScript", "Python", "Java", "C#", "C++"];
+  libraries = ["shadcn", "Radix UI", "Bootstrap", "TailwindCSS"];
+  frameworks = ["Astro.js", "React.js", "Django", "Spring Boot", "ASP.NET"];
+  tools = ["Figma", "Adobe XD", "Adobe Illustrator", "Sketch"];
 }
 ```
